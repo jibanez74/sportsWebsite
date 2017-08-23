@@ -1,0 +1,176 @@
+/* head y foot estilos */
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+.navbar {
+	background: #002D70;
+	color: #FFFFFF;
+	border-color: #002D70;
+}
+
+.navbar .navbar-nav > li > a {
+	background: #002D70;
+	color: #FC4C00;
+}
+
+.navbar .navbar-nav .active > a,
+.navbar .navbar-nav .active > a:hover,
+.navbar .navbar-nav .active > a:focus {
+	background: #FC4C00;
+	color: #FFFFFF;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+	background: #002D70;
+	color: #FFFFFF;
+}
+
+footer {
+	background-color: #002D70;
+	color: #FFFFFF;
+	font: 11px;
+	padding: 20px;
+}
+
+.jumbotron {
+	background-color: #002D70;
+	color: #FC4C00;
+	text-align: center;
+}
+
+#articles-section, #well_socios, #big_wrap, #galeria-fotos, #galeria-videos, #section_roster_tables {
+	margin-top: 62px;
+}
+
+/* estilos index */
+.carousel-caption {
+	font: 22px;
+}
+
+.a_ultimas_noticias {
+	text-decoration: none;
+	font: 16px;
+	color: black;
+}
+
+.carousel-caption h4 {
+	font: 30px;
+}
+
+@media (min-width: 1200px) {
+	.carousel-caption {
+		font: 24px;
+	}
+	
+	.carousel-caption h4 {
+		font: 32px;
+	}
+}
+
+@media (max-width: 788px) {
+	.carousel-caption {
+		font: 18px;
+	}
+	
+	.carousel-caption h4 {
+		font: 22px;
+	}
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well h1 {
+	margin-top: 0;
+}
+
+/* estilos news.html */
+article {
+	width: 80%;
+	margin: 0 auto 20px;
+}
+
+.article-title {
+	color: #002D70;
+	margin-bottom: 20px;
+	font: 32px bold;
+}
+
+.article-text {
+	font: 12px;
+	color: black;
+}
+
+.article-autor {
+	color: black;
+	font: boldl
+}
+
+/* estilos gallery.html */
+#galeria-fotos .row,
+#galeria-videos .row {
+	margin-bottom: 35px
+}
+
+.videos-title {
+	color: #002D70;
+}
+
+/* estilos roster */
+.table-jugadores > thead {
+	background: #FC4C00;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#entrevistas-section {
+	margin: 20px 0 30px;
+}
+
+/* estilos para singup.html */
+form {
+	padding: 20px;
+	margin: 0 20px 0;
+}
+
+.panel-heading-socios {
+	background: #FC4C00;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.form-group {
+	margin-top: 20px;
+}
+
+.control-label {
+	color: #002D70;
+	letter-spacing: 2px;
+	font: 12px;
+	margin-bottom: 5px;
+}
+
+.btnForm {
+	margin-top: 25px;
+}
+
+.warning-text {
+	color: red;
+	font: 18px;
+	text-align: center;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+
+
+

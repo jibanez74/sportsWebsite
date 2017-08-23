@@ -1,0 +1,610 @@
+<html lang="es">
+
+<!-- proyecto utilizando bootstrap 3 -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="lets go mets, new york mets, jugadores de los mets, socios lets go mets, videos de los mets">
+    <meta name="description" content="letsgomets.com es una página web dedicada a seguir el equipo de los Mets y sus jugadores">
+    <meta name="author" content="José Ibáñez">
+
+    <title> LetsGoMets | Bienvenidos </title>
+
+    <!-- archivos de bootstrap 3 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- script para resolver asuntos de compatibilidad con ciertos browsers -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- archivo personal de css -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<div class="container-fluid">
+    <header>
+        <nav role="navigation" class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-responsive">
+                        Menu
+                        <span class="caret"></span>
+                    </button>
+
+                    <a href="http://mets.com">
+                        <span class="sr-only">
+                            link para web oficial de
+                            los new york mets
+                        </span>
+                        <img src="imagenes/svg-logo.svg" width="150" height="49" class="pull-left" align="new uork mets logo">
+                    </a>
+                </div>
+
+                <div class="navbar-collapse collapse" id="navbar-responsive">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="news.html">
+                                Noticias
+                            </a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">
+                                Galeria
+                            </a>
+                        </li>
+                        <li>
+                            <a href="roster.html">
+                                Jugadores
+                            </a>
+                        </li>
+                        <li>
+                            <a href="singup.html">
+                                Socios
+                            </a>
+                        </li>
+                    </ul> <!-- nav items -->
+                </div> <!-- nav section -->
+            </div> <!-- container for navbar -->
+        </nav>
+    </header>
+
+    <section id="big_wrap" class="row">
+        <div class="col-lg-8">
+            <div data-ride="carousel" class="carousel slide" id="carrusel">
+                <!-- indicadores del carrusel - los 3 puntitos la parte inferior del carrusel -->
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#carrusel"></li>
+                    <li data-slide-to="1" data-target="#carrusel"></li>
+                    <li data-slide-to="2" data-target="#carrusel"></li>
+                </ol>
+
+                <!-- parte interna del carrusel - las fotos -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="imagenes/carrusel/noah1.jpg" alt="world series game 5" class="img-responsive">
+                        <div class="carousel-caption">
+                            <h4>
+                                World Series
+                            </h4>
+                            <p>
+                                Noah Syndergaard y los Mets ganan el 3er partido de la serie contra los Royals
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 4 -->
+                    <div class="item">
+                        <img src="imagenes/carrusel/nlcs1.jpg" class="img-responsive" alt="lucas duda">
+                        <div class="carousel-caption">
+                            <h4>
+                                WSH vs. NYM
+                            </h4>
+                            <p>
+                                Los Mets capturan la división del este gracias al poderoso bate de Lucas Duda
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 3 -->
+                    <div class="item">
+                        <img src="imagenes/carrusel/nlcs2.jpg" alt="wilmer flores" class="img-responsive">
+                        <div class="carousel-caption">
+                            <h4>
+                                Wilmer FLores - WalkOff
+                            </h4>
+                            <p>
+                                Wilmer Flores conecta cuadrangular contra los Chicago Cubs para impulsar los Mets a la Serie Mundial
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- controles del carrusel - las flechas -->
+                    <a href="#carrusel" class="left carousel-control" data-slide="prev" role="button">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a href="#carrusel" class="right carousel-control" data-slide="next" role="button">
+                        <span class="icon-next"></span>
+                    </a>
+                </div> <!-- carousel inner -->
+            </div> <!-- carousel -->
+
+            <!-- well -->
+            <div class="well">
+                <div class="page-header">
+                    <h1> NL Wild Card <small> SF Giants vs. NY Mets </small> </h1>
+                </div>
+
+                <table class="table table-bordered">
+                    <thead id="thead-partido">
+                    <tr>
+                        <td class="text-center" colspan="13">
+                            Resumen del Partido
+                        </td>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr class="text-center">
+                        <td>
+                            Equipo
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            6
+                        </td>
+                        <td>
+                            7
+                        </td>
+                        <td>
+                            8
+                        </td>
+                        <td>
+                            9
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            H
+                        </td>
+                        <td>
+                            E
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="sf-score">
+                            SF
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="score-mets">
+                            NYM
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="#score_modal" data-toggle="modal" role="button" class="btn btn-lg btn-link">
+                    Ver Resumen del Partido
+                </a>
+            </div> <!-- well -->
+
+            <div class="jumbotron">
+                <h2>
+                    Últimas Entrevistas
+                </h2>
+            </div> <!-- jumbotron -->
+
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title text-center">
+                                SNY Entrevista a Cespedes
+                            </h2>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/brxX1Ya3WeQ" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="panel-footer">
+                            <p>
+                                SNY entrevista al ALL-STAR Cespedes acerca de su regreso a New York.
+                            </p>
+                        </div>
+                    </div> <!-- panel -->
+                </div> <!-- col sm 6 -->
+
+                <div class="col-sm-6">
+                    <div class="panel">
+
+                        <div class="panel-heading">
+                            <h3 class="panel-title text-center">
+                                Entrevista con José Reyes
+                            </h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qGv481S5ldg" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="panel-footer">
+                            <p>
+                                José Reyes comenta acerca de todos los cambios que hará en los entrenamientos de primavera.
+                            </p>
+                        </div>
+                    </div> <!-- panel -->
+                </div> <!-- col sm 6 -->
+            </div> <!-- internal row -->
+        </div> <!-- col lg 8 -->
+
+        <div class="col-lg-4">
+            <div>
+                <h2 class="text-center page-header">
+                    Últimas Noticias
+                </h2>
+
+                <a class="a_ultimas_noticias" href="news.html">
+                    <h4 class="lead">
+                        Bulpen de los Mets Dependerá en Grande de Jeurys Familia
+                    </h4>
+                </a>
+
+                <br>
+
+                <a class="a_ultimas_noticias" href="news.html">
+                    <h4 class="lead">
+                        Gary Sánchez y Wilmer Flores recibirán el premio Thurman Munson
+                    </h4>
+                </a>
+
+                <br>
+
+                <a class="a_ultimas_noticias" href="news.html">
+                    <h4 class="lead">
+                        Edgardo Alfonzo será el manager de Clase-A Brooklyn de los Mets
+                    </h4>
+                </a>
+
+                <br>
+
+                <a class="a_ultimas_noticias" href="news.html">
+                    <h4 class="lead">
+                        Los Mets llegan al 2017 con la urgencia de ganar con su formidable rotación
+                    </h4>
+                </a>
+            </div>
+
+            <img src="imagenes/nymets-small.png" class="img-responsive img-circle center-block">
+
+            <h2 class="text-center page-header">
+                Calendario
+            </h2>
+
+            <table class="table" id="calendario">
+                <thead>
+                <tr>
+                    <td colspan="2">
+                        Abril 2017
+                    </td>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>
+                        Abril 3 al 5
+                    </td>
+                    <td>
+                        ATL vs. NUM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Abril 7 al 10
+                    </td>
+                    <td>
+                        WSH vs. NUM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Abril 11 al al 14
+                    </td>
+                    <td>
+                        NUM vs. MIA
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Abril 16 al 19
+                    </td>
+                    <td>
+                        NUM vs. ATL
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Abril 21 al 24
+                    </td>
+                    <td>
+                        NYY vs. NUM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Abril 26 al 27
+                    </td>
+                    <td>
+                        NYM vs. WSH
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Abril 28 al 30
+                    </td>
+                    <td>
+                        NUM vs. PHI
+                    </td>
+                </tr>
+                </tbody>
+            </table> <!-- calendario -->
+
+        </div> <!-- col lg 4 -->
+    </section> <!-- big wrap -->
+
+    <div class="jumbotron">
+        <h2>
+            Socios <small> Le damos la bienvenida a nuestros nuevos socios </small>
+        </h2>
+    </div>
+
+    <section class="row">
+        <div class="col-sm-3">
+            <div class="panel-title">
+                <div class="panel-heading">
+                    <h3 class="panel-title text-center">
+                        Max Greene
+                    </h3>
+                </div>
+
+                <div class="panel-body">
+                    <img src="imagenes/socios/profile1.jpg" class="img-responsive img-rounded img-thumbnail" alt="socios">
+                </div>
+            </div> <!-- panel -->
+        </div> <!-- col sm 3 -->
+
+        <div class="col-sm-3">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-ti text-center">
+                        Mike Cameron
+                    </h3>
+                </div>
+
+                <div class="panel-body">
+                    <img src="imagenes/socios/profile2.jpg" class="img-responsive img-thumbnail img-rounded center-block" alt="socios">
+                </div>
+            </div> <!-- panel -->
+        </div> <!-- col sm 3 -->
+
+        <div class="col-sm-3">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-ti text-center">
+                        Pepe Morales
+                    </h3>
+                </div>
+
+                <div class="panel-body">
+                    <img src="imagenes/socios/profile3.jpg" class="img-responsive img-thumbnail img-rounded center-block" align="socios">
+                </div>
+            </div> <!-- panel -->
+        </div>
+
+        <div class="col-sm-3">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-ti text-center">
+                        Eva Gee
+                    </h3>
+                </div>
+
+                <div class="panel-body">
+                    <img src="imagenes/socios/profile4.png" alt="socios" class="img-responsive img-thumbnail center-block img-rounded">
+                </div>
+            </div> <!-- panel -->
+        </div>
+    </section> <!-- socios section -->
+</div> <!-- big container -->
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="col-lg-2">
+            <h6>
+                Derechos de Autor &copy;2017 José R. Ibáñez Romany
+            </h6>
+            <p>
+
+            </p>
+        </div> <!-- col sm 2 -->
+
+        <div class="col-sm-4">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="news.html">
+                        Noticias
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        Galería
+                    </a>
+                </li>
+                <li>
+                    <a href="singup.html">
+                        Socios
+                    </a>
+                </li>
+            </ul> <!-- lista links -->
+        </div> <!-- col sm 4 -->
+
+        <div class="col-sm-2">
+            <h6>
+                Si lo deseas, puedes visitar la web oficial de los mets yendo a
+                <a href="http://mets.com"> mets.com </a>.  <br>
+                Si deseas contactar conmigo, escríbeme un correo a <em>jibanez.romany74@gmail.com</em>.
+            </h6>
+        </div> <!-- col sm 6 -->
+
+        <div class="col-sm-2">
+            <h6>
+                Web creada con mucho <span class="glyphicon glyphicon-heart"></span>
+                gracias al "framework" <em>Bootstrap@3</em> y al increible IDE <em>WebStorm</em>
+            </h6>
+        </div> <!-- col sm 2  -->
+    </div> <!-- container para foot -->
+</footer>
+
+<div class="modal fade" id="score_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" class="close">
+                    &times;
+                </button>
+
+                <h3 class="modal-title text-center">
+                    Giants vs. Mets (2016 NL Wild Card)
+                </h3>
+            </div>
+
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mpy1Z4Fh5o" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button data-dismiss="modal" type="button" class="btn btn-block btn-danger">
+                    Cerrar Ventana
+                </button>
+            </div>
+        </div> <!-- modal content -->
+    </div> <!-- modal dialog -->
+</div> <!-- div para ventana modal con resumen del partido -->
+
+<!-- scripts jquery y bootstrap -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
